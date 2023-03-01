@@ -49,3 +49,13 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 3. Folder structure to support the apt flow of the application
 4. Instead of introducing Redux for state management, implemented context approach
 5. Not dirty check and reloads of application (prevented by using memoized values)
+
+#### Test scenarios as per requirement:
+1. Only single Category to be selected at a time
+2. Multiple subcategories could work simultaneously
+3. Charts are static for now, was not able to understand data properly, given some guidance would be able to make it functional.
+4. The Add button for now will be changed to Added. Could have built a basket behaviour but skiiped as of now.
+5. Conditional color implemented : 'green' if positive, 'red' if negetive
+6. Could have added sortable feature for the DataTable, skipped for now as not part of requirement.
+7. The data refreshes every 3 seconds (refer useDeriv.js:42:43)
+8. Charts do support data points on hover (recharts library used)
