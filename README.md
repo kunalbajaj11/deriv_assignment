@@ -4,7 +4,7 @@ This project is consuming Deriv websocket API as a data source.
 
 ## Available Scripts
 
-In the project directory, you can run:
+Please consider running `npm install` command
 
 ### `npm start`
 
