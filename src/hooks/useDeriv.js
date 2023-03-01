@@ -1,4 +1,4 @@
-import DerivAPIBasic from "https://cdn.skypack.dev/@deriv/deriv-api/dist/DerivAPIBasic";
+import DerivAPIBasic from "https://cdn.skypack.dev/@deriv/deriv-api/dist/DerivAPIBasic"
 import { useEffect, useContext } from "react";
 import { DataContext } from "../context/DataContext";
 
@@ -6,7 +6,6 @@ const useDeriv = (app_id) => {
     // const msg = useContext(DataContext);
     // console.log('msg', msg);
     let {res, setRes} = useContext(DataContext);
-    // let [subCategories, setSubCategories] = useState();
 
     useEffect(() => {
         // const app_id = 35596; // Replace with your app_id or leave as 1089 for testing.
@@ -43,18 +42,9 @@ const useDeriv = (app_id) => {
                 // setSubCategories(...filterSubCategories(data));
             }, 3000);
         };
-    
-        // const filterSubCategories = (data) => {
-        //     console.log(data);
-        //     let arr = Array.from(new Set(data.active_symbols.map(item => item.market_display_name)));
-        //     console.log('Kunal', arr);
-        //     return arr;
-        // }
-    
+
         getActiveSymbols();
-        // return { data };
     });
-    // return data;
 }
 
 export default useDeriv;
