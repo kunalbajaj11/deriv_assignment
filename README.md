@@ -59,3 +59,12 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 6. Could have added sortable feature for the DataTable, skipped for now as not part of requirement.
 7. The data refreshes every 3 seconds (refer useDeriv.js:42:43)
 8. Charts do support data points on hover (recharts library used)
+9. Pagination implemented and 10 records at a time visible with fixed headers and scrolling option in grid.
+
+### Snippets for reference: 
+
+![image](https://user-images.githubusercontent.com/87039860/222267365-819262fd-4b02-4261-9c74-1e03ee049bcf.png)
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+![image](https://user-images.githubusercontent.com/87039860/222267469-1759df11-cb1a-469c-9b03-a6e3570d08d3.png)
