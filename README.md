@@ -35,7 +35,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ## Concepts Utilised
 
-**Created functional components and have implemented below hooks: **
+#### Created functional components and have implemented below hooks:
 1. useState
 2. useEffect
 3. useContext
@@ -43,7 +43,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 5. useDeriv (custom hook)
 6. useMemo
 
-**Things kept in consideration: **
+#### Things kept in consideration:
 1. Implemented CSS-in-JS (styled components)
 2. Also used module css approach (used in wide spread projects)
 3. Folder structure to support the apt flow of the application
