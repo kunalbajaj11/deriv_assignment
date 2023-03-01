@@ -39,7 +39,7 @@ const useDeriv = (app_id) => {
             setTimeout(async () => {
                 connection.addEventListener("message", activeSymbolsResponse);
                 await api.activeSymbols(active_symbols_request);
-                console.log('Data received again ', data);
+                console.log('Data received again');
                 // setSubCategories(...filterSubCategories(data));
             }, 3000);
         };

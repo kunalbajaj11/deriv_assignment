@@ -7,9 +7,10 @@ function DataTableComp({ data, selectedSubHeader, selectedSubCategories }) {
   }
 
 
-  console.log('data', data);
+  // console.log('data', data);
   console.log('selectedSubHeader', selectedSubHeader);
   console.log('selectedSubCategories', selectedSubCategories);
+
   if(selectedSubHeader.length > 0) {
     data = data.filter(item => {
       return item.market_display_name === selectedSubHeader
